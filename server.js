@@ -1,14 +1,10 @@
 const express = require('express');
-const path = require('path')
-const { db } = require('./db/db.json');
 
-const apiRoutes = require('./routes/apiRoutes');
-const htmlRoutes = require('./routes/htmlRoutes');
+const apiRoutes = require('./routes/apiroutes');
+const htmlRoutes = require('./routes/htmlroutes');
 
 const PORT = process.env.PORT || 3001;
 const app = express();
-
-const fs = require('fs');
 
 //uses express
 app.use(express.urlencoded({ extended: true }));
