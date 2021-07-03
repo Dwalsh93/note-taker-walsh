@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "nodemon server.js"
   },
@@ -19,6 +20,5 @@
   "homepage": "https://github.com/Dwalsh93/note-taker-walsh#readme",
   "dependencies": {
     "express": "^4.17.1"
-  },
-  "start": "server.js"
+  }
 }
