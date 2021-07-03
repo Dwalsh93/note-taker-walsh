@@ -34,7 +34,22 @@ router.post('/notes', (req, res) => {
     res.json(notes)
 })
 
-//router.delete('/', (req, res) =>{})
+// router.delete("/notes/:id", (req, res) => {
+//     console.log("Delete",req.params.id)
+//     let noteObj = [];
+//     for (let i = 0; i<notes.length; i++) {
+//       if (notes[i].id!=req.params.id) {
+//         noteObj.push(notes[i])
+//       }
+//     }
+//     notes = noteObj;
+//     console.log(noteObj, "hello delete")
+//     fs.writeFileSync("./db/db.json",
+//       JSON.stringify(notes),function(err){
+//         if (err) throw err;
+//       })
+//     res.json(notes)
+//   })
 
 
 module.exports = router;
