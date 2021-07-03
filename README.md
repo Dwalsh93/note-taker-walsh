@@ -12,8 +12,8 @@ Use this program to create new notes for yourself
 
 # images 
 
-![ScreenShot of Current Active Webpage 2](./assets/notetaker1.png)
-![ScreenShot of Current Active Webpage 2](./assets/notetaker2.png)
+![ScreenShot of Current Active Webpage 2](./Assets/notetaker1.png)
+![ScreenShot of Current Active Webpage 2](./Assets/notetaker2.png)
 
 # questions
 
